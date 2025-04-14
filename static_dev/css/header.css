@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* Colores */
+/* line 4, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+body {
+  background-color: #F5F5F5;
+  font-family: 'Arial', sans-serif;
+  color: #98d9b6;
+}
+
+/* line 10, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.mi-nav {
+  background-color: #8BC34A;
+}
+
+/* line 14, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.logo {
+  margin-left: 50px;
+}
+
+/* line 18, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+#carrusel-ofertas .carousel-control-prev-icon,
+#carrusel-ofertas .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 5px #000);
+}
+
+/* line 25, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.boton-buscar {
+  background-color: #E41A1C;
+  border: none;
+  border-radius: 15%;
+  padding: 8px 16px;
+  color: #ffffff;
+}
+
+/* line 33, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.boton-ingresar {
+  margin-right: 60px;
+  background-color: #E41A1C;
+  border: none;
+  border-radius: 15%;
+  padding: 8px 16px;
+  /* para que tenga tamaño de botón */
+  color: #ffffff;
+  /* para que se vea el texto */
+  text-decoration: none;
+  /* sacar el subrayado */
+}
+
+/* line 45, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.buscador-centrado {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 53, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.img-carrusel {
+  width: 80%;
+  margin: 0 auto;
+  /* centra la imagen */
+  border-radius: 15%;
+}
+
+/* line 59, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.img-carrusel2 {
+  width: 80%;
+  margin: 0 auto;
+  /* centra la imagen */
+  border-radius: 15%;
+}
+
+/* line 65, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.img-carrusel3 {
+  width: 80%;
+  /* achica la imagen al 70% del contenedor */
+  margin: 0 auto;
+  /* centra la imagen */
+  border-radius: 15%;
+}
+
+/* line 71, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.img-carrusel4 {
+  width: 80%;
+  margin: 0 auto;
+  /* centra la imagen */
+  border-radius: 15%;
+}
+
+/* line 77, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.carrusel-imagen {
+  width: 30%;
+  /* que ocupe todo el ancho del contenedor */
+  height: 300px;
+  /* o el alto que quieras */
+  object-fit: cover;
+  /* para que no se deformen feo */
+}
+
+/* line 82, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.card {
+  max-width: 300px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20%;
+}
+
+/* line 91, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.card3 {
+  border-radius: 50%;
+}
+
+/* line 94, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  /* separa los botones */
+}
+
+/* line 101, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.botondes {
+  margin-top: 20px;
+  border: none;
+  /* Opcional: si querés que no tenga bordes grises */
+}
+
+/* line 106, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.tituloPrincipal {
+  color: #E41A1C;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* line 112, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.titulo-ofertas {
+  color: #E41A1C;
+  text-align: center;
+}
+
+/* line 117, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.titulo-categorias {
+  color: #E41A1C;
+}
+
+/* line 120, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.lista a {
+  text-decoration: none;
+}
+
+/* line 124, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.boton-añadir {
+  background-color: #E41A1C !important;
+  border: none !important;
+}
+
+/* line 129, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.eslogan {
+  color: #212121;
+}
+
+/* line 133, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.menu-categorias {
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+  /* sombra roja con opacidad */
+  border-radius: 8px;
+  /* opcional, si querés que se vea más suave */
+  padding: 10px;
+  /* opcional, para que respire un poco */
+}
+
+/* line 139, ../../../../../EntornosVirtuales/Diplo/Archivos/GramiSys/static_dev/scss/header.scss */
+.nombre-categoria {
+  color: #E41A1C !important;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"/* Colores */\r\n\r\n$color1: #98d9b6;\r\n$color2: #E41A1C;\r\n$color3: #ffffff;\r\n$titulo:#212121;\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,aAAa"
+}
